@@ -1,5 +1,27 @@
-#第一卷 桃花源事记
-<font face="幼圆" size="5"><table><tr><td bgcolor="#CCFFCC"><br>##第一章
+<link rel="stylesheet" href="http://yandex.st/highlightjs/6.2/styles/googlecode.min.css">
+ 
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script src="http://yandex.st/highlightjs/6.2/highlight.min.js"></script>
+ 
+<script>hljs.initHighlightingOnLoad();</script>
+<script type="text/javascript">
+ $(document).ready(function(){
+      $("h2,h3,h4,h5,h6").each(function(i,item){
+        var tag = $(item).get(0).localName;
+        $(item).attr("id","wow"+i);
+        $("#category").append('<a class="new'+tag+'" href="#wow'+i+'">'+$(this).text()+'</a></br>');
+        $(".newh2").css("margin-left",0);
+        $(".newh3").css("margin-left",20);
+        $(".newh4").css("margin-left",40);
+        $(".newh5").css("margin-left",60);
+        $(".newh6").css("margin-left",80);
+      });
+ });
+</script>
+<div id="category"></div>
+# 第一卷 桃花源事记
+<font face="幼圆" size="5"><table><tr><td bgcolor="#CCFFCC">
+<br>## 第一章
 <br>&emsp;&emsp;“将军！将军！”在冰冷的雨夜中，几声凌乱的脚步声打破了雨滴那永无休止的，令人厌烦的沙沙声。万家灯火已灭。在这二更时分，一队士兵正向将军的营帐中跑去。营帐里四处漏水，一条泥水形成的小溪蜿蜒曲折地流过将军那简陋的行军床下。
 <br>&emsp;&emsp;岚将军连忙爬起，在一片凌乱中整理衣冠，穿戴好一身轻甲，点亮了一只短小的羊脂蜡烛。“那么，官军已经来了吗？”他没有慌张，拿起一壶酒，给自己倒了一杯。下属眼巴巴的看着那一壶浊酒，雨水正不断的混在里边。显然，岚将军并没有把酒赏给这几位已经劳累过度，还在前线冒着生命危险探查敌情的侦察兵的意思。
 <br>&emsp;&emsp;但尊卑不能颠倒。尽管心里满怀着怨恨，士兵还是铿锵有力的说：“是的！大人，敌军已经接近我军，人数……非常多！大人，非常多！大概有我军的六七倍不止……大人……我们……”

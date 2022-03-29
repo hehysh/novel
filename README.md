@@ -1,22 +1,16 @@
-<link rel="stylesheet" href="http://yandex.st/highlightjs/6.2/styles/googlecode.min.css">
- <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-<script src="http://yandex.st/highlightjs/6.2/highlight.min.js"></script>
- <script>hljs.initHighlightingOnLoad();</script>
-<script type="text/javascript">
- $(document).ready(function(){
-      $("h2,h3,h4,h5,h6").each(function(i,item){
-        var tag = $(item).get(0).localName;
-        $(item).attr("id","wow"+i);
-        $("#category").append('<a class="new'+tag+'" href="#wow'+i+'">'+$(this).text()+'</a></br>');
-        $(".newh2").css("margin-left",0);
-        $(".newh3").css("margin-left",20);
-        $(".newh4").css("margin-left",40);
-        $(".newh5").css("margin-left",60);
-        $(".newh6").css("margin-left",80);
-      });
- });
-</script>
-<div id="category"></div>
+<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="js/jquery.ztree.core-3.5.js"></script>
+<script type="text/javascript" src="jquery.ztree_toc.js"></script>
+ <link rel="stylesheet" href="../css/zTreeStyle/zTreeStyle.css" type="text/css">
+ <SCRIPT type="text/javascript" >
+<!--
+$(document).ready(function(){
+	$('#tree').ztree_toc({
+
+	});
+});
+//-->
+</SCRIPT>
 # 第一卷 桃花源事记
 <font face="幼圆" size="5"><table><tr><td bgcolor="#CCFFCC">
 <br>## 第一章
